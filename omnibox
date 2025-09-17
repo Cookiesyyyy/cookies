@@ -1,0 +1,1 @@
+docker run -d -p 7123:7023 --restart unless-stopped -v omnibox:/app/data --name omnibox lampon/omnibox:latest
